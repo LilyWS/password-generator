@@ -17,7 +17,7 @@ function generatePassword() {
   //CODE HERE
   let pLength = prompt("How long should your password be? \nMust be between 8-128 characters (inclusive). ");
   while(pLength < 8 || pLength > 128){
-    let pLength = prompt("Please enter a number between 8-128");
+    pLength = prompt("Please enter a number between 8-128");
   }
   let password = "";
   let possible = "";
